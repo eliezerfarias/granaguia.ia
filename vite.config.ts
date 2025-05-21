@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
+    export default defineConfig({
+  base: '/granaguia.ia/',
+})
   },
 });
